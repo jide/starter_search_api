@@ -1,0 +1,23 @@
+
+.navbar .search-autocomplete {
+  position: relative;
+  z-index: 999;
+}
+
+.navbar .search-autocomplete form {
+  position: relative;
+  z-index: 999;
+}
+
+.navbar .view-search-autocomplete {
+  background: white;
+  position: relative;
+}
+
+.navbar .view-search-autocomplete .dropdown-menu {
+  display: block !important;
+  position: relative;
+  left: 0;
+  float: none;
+  position: absolute;
+}

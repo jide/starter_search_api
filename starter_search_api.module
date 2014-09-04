@@ -1,0 +1,16 @@
+<?php
+/**
+ * @file
+ * Code for the Starter: Search API feature.
+ */
+
+include_once 'starter_search_api.features.inc';
+
+/**
+ * Implements of hook_views_api_alter().
+ */
+function starter_search_api_views_api_alter(&$apis) {
+  $apis['starter_search_api']['path'] = drupal_get_path('module', 'starter_search_api');
+  $apis['starter_search_api']['template path'] = drupal_get_path('module', 'starter_search_api');
+}
+
